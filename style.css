@@ -85,28 +85,28 @@ h4 {
   max-width: 760px;
 }
 
-.food {
+.goal {
   background-color: #ffda00;
   width: 100%;
 }
 
-.food h4, .food p {
+.goal h4, .food p {
   width: 100%;
   max-width: 400px;
   margin: 0 auto 30px auto;
 }
 
- .food p {
+ .goal p {
    margin-bottom: 0;
  }
 
-.food .foodtext {
+.goal .foodtext {
   padding-top: 80px;
   float: left;
   width: 50%;
 }
 
-.food img {
+.goal img {
   width: 50%;
   float: right;
 }
