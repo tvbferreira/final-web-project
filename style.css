@@ -53,7 +53,7 @@ section {
 }
 
 .hero h2 {
-  color: #fe5504;
+  color: #FFFFFF;
   font-size: 80px;
   line-height: 1;
   margin: 0 auto;
@@ -107,7 +107,7 @@ h4 {
 }
 
 .goal img {
-  width: 50%;
+  width: 100%;
   float: right;
 }
 
