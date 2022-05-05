@@ -204,24 +204,7 @@ footer p {
   margin-top: 2px;
 }
 
-@media (max-width: 950px) {
-  .food .foodtext {
-    margin: 0 auto;
-    padding: 50px 20px;
-    text-align: center;
-    width: 100%;
-  }
 
-  .food img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  body,
-  h4 {
-    font-size: 16px;
-  }
   
   header h1, nav {
     float: none;
