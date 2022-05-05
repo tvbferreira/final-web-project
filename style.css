@@ -204,6 +204,26 @@ footer p {
   margin-top: 2px;
 }
 
+@media (max-width: 950px) {
+  .food .foodtext {
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .food img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body,
+  h4 {
+    font-size: 16px;
+  }
+  
+
 
   
   header h1, nav {
@@ -245,12 +265,12 @@ footer p {
     padding: 30px 20px;
   }
 
-  .about p, .food p {
+  .about p, .goal p {
     font-size: 20px;
     line-height: 1.2;
   }
   
-  .food .foodtext {
+  .goal .goaltext {
     padding: 30px 20px;
   }
   
