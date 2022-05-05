@@ -45,7 +45,7 @@ section {
 }
 
 .hero {
-  background-image: url(https://cdn.glitch.global/b2d6889a-c947-4d47-88ba-df6228e87157/0D2481A8-F93A-4FFF-AAB6-348B39028651.jpeg?v=1651698623991);
+  background-image: url(header-background.svg);
   background-position: right center;
   background-size: cover;
   padding: 275px 0;
@@ -53,7 +53,7 @@ section {
 }
 
 .hero h2 {
-  color: #FFFFFF;
+  color: #fe5504;
   font-size: 80px;
   line-height: 1;
   margin: 0 auto;
@@ -107,7 +107,7 @@ h4 {
 }
 
 .goal img {
-  width: 100%;
+  width: 50%;
   float: right;
 }
 
@@ -204,7 +204,24 @@ footer p {
   margin-top: 2px;
 }
 
+@media (max-width: 950px) {
+  .food .foodtext {
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+  }
 
+  .food img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body,
+  h4 {
+    font-size: 16px;
+  }
   
   header h1, nav {
     float: none;
